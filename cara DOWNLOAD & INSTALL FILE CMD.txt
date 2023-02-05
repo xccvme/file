@@ -1,0 +1,50 @@
+CARA DOWNLOAD dan INSTALL FILE lewat CMD
+===========================================
+wallpaper//link
+https://github.com/xccvme/file/raw/main/wallpaperUHD.jpg
+
+
+
+powershell -command "&{ iwr LINKFILE HERE -outfile FOLDER OUT\filename.format }"
+
+
+//* link download chrome SetUP *//
+https://github.com/xccvme/chrome/raw/main/ChromeSetup.exe
+
+//* CONTOH DOWNLOAD CHROME *//
+powershell -command "&{ iwr https://github.com/xccvme/chrome/raw/main/ChromeSetup.exe -outfile C:\Users\student_00_1c1c38371\Downloads\ChromeSetup.exe }"
+
+
+//* Install Chrome_en lewat CMD *//
+cd C:\Users\%username%\Downloads
+powershell -command "&{ iwr https://github.com/xccvme/chrome/raw/main/ChromeSetup.exe -outfile ChromeSetup.exe }"
+start ChromeSetup.exe
+msg * "Proses instalasi.!"
+exit
+ok
+
+//* Install Chrome_id lewat CMD *//
+cd C:\Users\%username%\Downloads
+powershell -command "&{ iwr https://github.com/xccvme/chrome/raw/main/ChromeSetup_id.exe -outfile ChromeSetup.exe }"
+start ChromeSetup.exe
+msg * "Proses instalasi.!"
+exit
+ok
+
+
+//* Install winrar lewat Cmd *//
+cd C:\Users\%username%\Downloads
+powershell -command "&{ iwr https://github.com/xccvme/file/raw/main/winrar-x64-602.exe -outfile winrar-x64-602.exe  }"
+start winrar-x64-602.exe 
+msg * "Proses instalasi.!" 
+exit
+ok
+
+
+//* Install IDM lewat Cmd *//
+cd C:\Users\%username%\Downloads
+powershell -command "&{ iwr https://github.com/xccvme/file/raw/main/InternetDownloadManager.exe -outfile InternetDownloadManager.exe }"
+start InternetDownloadManager.exe
+msg * "Proses instalasi.!" 
+exit
+ok
